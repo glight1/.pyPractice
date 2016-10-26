@@ -1,0 +1,2 @@
+# .pyPractice
+practice projects
