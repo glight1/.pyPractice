@@ -3,8 +3,8 @@ import pandas as pd, pandas.io.sql, pyodbc
 
 # Parameters
 driver = '{ODBC Driver 13 for SQL Server}'
-server = 'STP-DR'
-db = 'STP_Reporting'
+server = 'TEST'
+db = 'TEST'
 uid = ''
 pwd = ''
 
@@ -16,7 +16,7 @@ conn = pyodbc.connect('DRIVER=' + driver + ';SERVER=' + server + ';DATABASE=' +
 sql = '''
 
 select top 10 *
-from PAT_PatientID_Index
+from TEST_DB
 
 '''
 
